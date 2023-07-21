@@ -1,9 +1,12 @@
+import Sidebar from '@/components/Sidebar'
 import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className='container font-extrabold'>
-      Hello
+    <div className='w-full flex'>
+      <div>
+        <Sidebar/>
+      </div>
     </div>
   )
 }
