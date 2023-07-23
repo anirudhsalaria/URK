@@ -1,5 +1,7 @@
 import Sidebar from "./Sidebar";
+import Intro from "./Intro";
 
 export{
-    Sidebar
+    Sidebar,
+    Intro
 }
